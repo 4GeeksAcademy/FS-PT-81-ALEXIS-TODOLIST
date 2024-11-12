@@ -1,12 +1,42 @@
+body {
+  background-color: aliceblue;
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Asegura que el body ocupe todo el alto de la pantalla */
+  margin: 0; /* Elimina el margen predeterminado del body */
+}
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+ul, li {
+    border: 1px solid gray;
+  padding:10px;
+  list-style: none;
+  
+
+}
+
+ul{width:700px;
+  margin-bottom:300px;
+
+}
+
+.fa-solid {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  float:right;
+  margin-right:3px;
+  font-size:20px;
+}
+
+
+.fa-solid:hover {
+  opacity: 1;
+}
+
+.task-count{
+  color:gray;
+  font-size:13px;
+  margin-right:550px;
+}
